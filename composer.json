@@ -1,0 +1,23 @@
+{
+    "name": "panix/wgt-cropper",
+    "description": "Widget cropper",
+    "keywords": ["corner-cms", "extension", "widget", "form", "cropper"],
+    "homepage": "https://github.com/andrtechno/wgt-cropper",
+    "type": "extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "CORNER CMS",
+            "email": "dev@corner-cms.com",
+            "homepage": "http://www.corner-cms.com/"
+        }
+    ],
+    "require": {
+        "panix/engine": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "panix\\ext\\cropper\\": ""
+        }
+    }
+}
