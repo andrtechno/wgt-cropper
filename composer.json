@@ -3,7 +3,7 @@
     "description": "Widget cropper",
     "keywords": ["corner-cms", "extension", "widget", "form", "cropper"],
     "homepage": "https://github.com/andrtechno/wgt-cropper",
-    "type": "yii2-extension",
+    "type": "extension",
     "license": "BSD 3-Clause",
     "authors": [
         {
