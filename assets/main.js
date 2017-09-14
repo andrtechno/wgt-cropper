@@ -46,11 +46,17 @@ $(function () {
         },
         cropend: function (e) {
             console.log(e.type, e.action);
-                        $.ajax({
+                      /*  $.ajax({
                             type:'POST',
                             url:'/images/crop',
-                            data:{'type':e.y}
-                        });
+                            data:$('#form-test').serialize(),
+                            beforeSend:function(){
+                               	$('#preloader').fadeIn('fast',function(){$(this).show();});
+                            },
+                            complete:function(){
+                                $('#preloader').fadeOut('fast',function(){$(this).hide();}); 
+                            }
+                        });*/
         },
         crop: function (e) {
             console.log(e.type, e.x, e.y, e.width, e.height, e.rotate, e.scaleX, e.scaleY);
