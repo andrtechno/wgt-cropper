@@ -13,10 +13,11 @@ class CropperForm extends Model {
     public $height;
     public $coord_x;
     public $coord_y;
+    public $filepath;
 
     public function rules() {
         return [
-            [['scaleX', 'scaleY','rotate','width','height','coord_y','coord_x'], 'string'],
+            [['filepath','scaleX', 'scaleY','rotate','width','height','coord_y','coord_x'], 'string'],
         ];
     }
 
