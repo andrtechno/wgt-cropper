@@ -1,6 +1,6 @@
 wgt-cropper
 ===========
-Widget CORNER CMS
+Widget Pixelion CMS
 
 [![Latest Stable Version](https://poser.pugx.org/panix/wgt-cropper/v/stable)](https://packagist.org/packages/panix/wgt-cropper) [![Total Downloads](https://poser.pugx.org/panix/wgt-cropper/downloads)](https://packagist.org/packages/panix/wgt-cropper) [![Monthly Downloads](https://poser.pugx.org/panix/wgt-cropper/d/monthly)](https://packagist.org/packages/panix/wgt-cropper) [![Daily Downloads](https://poser.pugx.org/panix/wgt-cropper/d/daily)](https://packagist.org/packages/panix/wgt-cropper) [![Latest Unstable Version](https://poser.pugx.org/panix/wgt-cropper/v/unstable)](https://packagist.org/packages/panix/wgt-cropper) [![License](https://poser.pugx.org/panix/wgt-cropper/license)](https://packagist.org/packages/panix/wgt-cropper)
 
