@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class CropperLibAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/fengyuanchen/cropper/dist';
+    public $sourcePath = '@bower/cropper/dist';
 
     public $css = [
         'cropper.min.css'

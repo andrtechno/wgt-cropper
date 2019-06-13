@@ -9,7 +9,7 @@ class CropperAsset extends AssetBundle
     public $sourcePath = '@vendor/panix/wgt-cropper/assets';
 
     public $js = [
-        'main.js'
+        'js/main.js'
     ];
     public $css = [
         'css/main.css'
