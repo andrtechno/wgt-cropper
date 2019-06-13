@@ -14,7 +14,7 @@
     ],
     "require": {
         "panix/engine": "*",
-        "fengyuanchen/cropper": "*"
+        "bower/cropper": "*"
     },
     "autoload": {
         "psr-4": {
