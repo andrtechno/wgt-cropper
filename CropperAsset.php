@@ -8,15 +8,13 @@ class CropperAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/panix/wgt-cropper/assets';
 
-    public $css = [
-        'cropper.min.css'
-    ];
     public $js = [
-        'cropper.min.js',
         'main.js'
     ];
-
+    public $css = [
+        'css/main.css'
+    ];
     public $depends = [
-        'yii\web\JqueryAsset',
+        'panix\ext\cropper\CropperLibAsset',
     ];
 }
