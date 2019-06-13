@@ -11,9 +11,11 @@ class CropperAsset extends AssetBundle
     public $js = [
         'js/main.js'
     ];
+
     public $css = [
         'css/main.css'
     ];
+
     public $depends = [
         'panix\ext\cropper\CropperLibAsset',
     ];
