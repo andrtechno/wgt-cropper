@@ -20,4 +20,11 @@
     margin-bottom: .5rem;
     margin-right: .5rem;
     overflow: hidden;
+    background-image: url(../images/bg.png);
+}
+.docs-data .input-group-prepend .input-group-text{
+    width: 70px;
+}
+.docs-data .input-group-append .input-group-text {
+    min-width: 50px;
 }
