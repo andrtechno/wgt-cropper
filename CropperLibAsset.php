@@ -17,5 +17,6 @@ class CropperLibAsset extends AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
+        'yii\bootstrap4\BootstrapPluginAsset',
     ];
 }
