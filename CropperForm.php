@@ -4,7 +4,8 @@ namespace panix\ext\cropper;
 
 use yii\base\Model;
 
-class CropperForm extends Model {
+class CropperForm extends Model
+{
 
     public $scaleX;
     public $scaleY;
@@ -15,9 +16,10 @@ class CropperForm extends Model {
     public $coord_y;
     public $filepath;
 
-    public function rules() {
+    public function rules()
+    {
         return [
-            [['filepath','scaleX', 'scaleY','rotate','width','height','coord_y','coord_x'], 'string'],
+            [['filepath', 'scaleX', 'scaleY', 'rotate', 'width', 'height', 'coord_y', 'coord_x'], 'string'],
         ];
     }
 

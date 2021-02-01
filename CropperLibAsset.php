@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class CropperLibAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/fengyuanchen/cropper/dist';
+    public $sourcePath = '@bower/cropper/dist';
 
     public $css = [
         'cropper.min.css'
@@ -17,5 +17,6 @@ class CropperLibAsset extends AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
+        'yii\bootstrap4\BootstrapPluginAsset',
     ];
 }

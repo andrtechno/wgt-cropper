@@ -14,7 +14,7 @@
     ],
     "require": {
         "panix/engine": "*",
-        "bower-asset/cropper": "*"
+        "bower-asset/cropper": "^v4.*"
     },
     "autoload": {
         "psr-4": {
