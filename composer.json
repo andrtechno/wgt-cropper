@@ -3,7 +3,7 @@
     "description": "Widget cropper",
     "keywords": ["pixelion-cms", "extension", "widget", "form", "cropper"],
     "homepage": "https://github.com/andrtechno/wgt-cropper",
-    "type": "yii2-extension",
+    "type": "pixelion-widget",
     "license": "MIT",
     "authors": [
         {
